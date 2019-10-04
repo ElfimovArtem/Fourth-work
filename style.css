@@ -6,10 +6,12 @@
 .header__layout {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    padding: 15px 0;
 }
 .header__layout-logo {
     width: 45px;
     height: 45px;
+    margin-left: 12px;
 }
 .header__layout-logo-image {
     width: 100%;
@@ -24,11 +26,15 @@
 .header__layout-navigation-item-link {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
-    padding: 5px 10px;
+    color: #394b50;
+    font-family: "Lato";
+    font-size: 15px;
+    padding: 6px 12px;
 }
 .header__layout-navigation-item-link:hover {
-    border: 1px solid black;
+    background: #ffbb42;;
+    border-radius: 2px;
+    color: #fafafa;
 }
 .first-screen__layout-description {
     display: flex;
@@ -37,3 +43,406 @@
 .first-screen__layout-description-title {
     margin: 0 auto;
 }
+/*First-screen*/
+.first-screen {
+    padding-bottom: 140px;
+}
+.first-screen__layout {
+    background: #709dca;
+    padding-top: 80px;
+    position: relative;
+}
+.first-screen__layout-description-title {
+    font-size: 35px;
+    font-family: "Lato";
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.first-screen__layout-description-title-text {
+    font-size: 15px;
+    font-family: "Lato";
+    color: #ffffff;
+    margin: 0 auto;
+}
+.first-screen__layout-feedback {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.first-screen__layout-feedback-item {
+    position: relative;
+    width: 100%;
+}
+.first-screen__layout-feedback-button {
+    width: 85%;
+    height: auto;
+    background: #ffbb42;
+    color: #fafafa;
+    border-style: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.first-screen__layout-feedback-button:hover {
+    background: #ffa70f;
+    cursor: pointer;
+}
+.first-screen__layout-feedback-button:active {
+    transform: scale(0.99,0.99);
+}
+.first-screen__layout-feedback-item-icon {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    color: #394b50;
+}
+.first-screen__layout-feedback-item-icon i{
+    font-size: 18px;
+}
+.first-screen__layout-feedback-item input{
+    width: 85%;
+    padding-left: 35px;
+    height: 35px;
+    font-size: 15px;
+    border-style: none;
+    outline: none;
+    border-radius: 2px;
+}
+.first-screen__layout-laptop {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+}
+/*second-screen*/
+.second-screen {
+    padding-bottom: 60px;
+    font-family: "Lato";
+}
+.second-screen__layout {
+    display: flex;
+    flex-direction: column;
+}
+.second-screen__layout-description {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.second-screen__layout-description-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    color: #394b50;
+}
+.second-screen__layout-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.second-screen__layout-services-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 40px 10px;
+}
+.second-screen__layout-services-block-icon {
+    width: 50%;
+    padding-left: 5px;
+}
+.second-screen__layout-services-block-icon i {
+    font-size: 50px;
+    color: #709dca;
+}
+.second-screen__layout-services-block-icon i:hover {
+    color: #ffa70f;
+}
+.second-screen__layout-services-block-icon i:active {
+    transform: scale(0.96, 0.96);
+}
+.second-screen__layout-services-block-description-title {
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: #394b50;
+}
+.second-screen__layout-services-block-description-text {
+    font-size: 13px;
+    color: #394b50;
+}
+/*thirdth-screen*/
+.thirdth-screen {
+    font-family: "Lato";
+    margin: -20px;
+}
+.thirdth-screen__layout {
+    display: flex;
+    justify-content: space-between;
+}
+.thirdth-screen__layout-blockPhoto {
+    width: 50%;
+}
+.thirdth-screen__layout-blockPhoto-image {
+    width: 100%;
+    height: 100%;
+}
+.thirdth-screen__layout-blockDescription {
+    width: 50%;
+    height: auto;
+    background: #ffbb42;
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+.thirdth-screen__layout-blockDescription-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    padding: 70px 0 30px 70px;
+}
+.thirdth-screen__layout-blockDescription-text {
+    font-size: 15px;
+    padding: 0 50px 20px 70px;
+    line-height: 1.5;
+}
+.thirdth-screen__layout-blockDescription-button {
+    margin: 0 auto 0 70px;
+    text-transform: uppercase;
+    color: #fafafa;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fa9a00;
+    padding: 12px 24px;
+
+}
+.thirdth-screen__layout-blockDescription-button:hover{
+    background: #fa9a00;
+    cursor: pointer;
+}
+.thirdth-screen__layout-blockDescription-button:active {
+    transform: scale(0.97, 0.97);
+}
+/*fourth-screen*/
+.fourth-screen {
+    font-family: "Lato";
+    padding-bottom: 80px;
+}
+.fourth-screen__layout {
+    background: #e7edf3;
+    padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+}
+.fourth-screen__layout-description {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.fourth-screen__layout-description-title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: #394b50;
+}
+.fourth-screen__layout-description-text {
+    color: #394b50;
+}
+.fourth-screen__layout-container {
+    display: flex;
+    justify-content: center;
+}
+.fourth-screen__layout-container-block {
+    border: 1px solid #bad0e6;
+    border-radius: 3px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background: #709dca;
+    color: #fafafa;
+    text-transform: uppercase;
+    padding: 20px 30px;
+}
+.fourth-screen__layout-container-block-title {
+    font-weight: lighter;
+    font-size: 25px;
+}
+.fourth-screen__layout-container-block-box {
+    display: block;
+}
+.layout-container-block-box__price {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.layout-container-block-box__usd {
+    font-size: 35px;
+    vertical-align: top;
+    margin-bottom: 0;
+}
+.fourth-screen__layout-container-block-propperty {
+    margin-top: -10px;
+}
+.fourth-screen__layout-container-block-list {
+    list-style-type: none;
+    padding: 15px 0 20px 0;
+    margin: 0;
+}
+.fourth-screen__layout-container-block-list-item {
+    padding: 10px;
+    border-top: 1px solid #bad0e6;
+}
+.fourth-screen__layout-container-block-button {
+    border-style: none;
+    border-radius: 2px;
+    color: #fafafa;
+    background: #fa9a00;
+    margin: 0 auto 25px auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 7px 14px;
+    outline: none;
+    cursor: pointer;
+}
+.fourth-screen__layout-container-block-button:hover {
+    background: #ffbb42;
+}
+.fourth-screen__layout-container-block-button:active {
+    transform: scale(0.97, 0.97);
+}
+.fourth-screen__layout-container-block--basic {
+    border: 1px solid #bad0e6;
+    border-radius: 3px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background: #fafafa;
+    color: #394b50;
+    text-transform: uppercase;
+    padding: 0 30px;
+    margin: 20px 0;
+}
+.fourth-screen__layout-container-block--basic-title {
+    font-weight: lighter;
+    font-size: 25px;
+}
+.fourth-screen__layout-container-block--basic-box {
+    display: block;
+    color: #fa9a00;
+}
+.basic-box__price {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.basic-box__usd {
+    font-size: 35px;
+    vertical-align: top;
+    margin-bottom: 0;
+}
+.fourth-screen__layout-container-block--basic-propperty {
+    margin-top: -10px;
+}
+.fourth-screen__layout-container-block--basic-list {
+    list-style-type: none;
+    padding: 15px 0 20px 0;
+    margin: 0;
+}
+.fourth-screen__layout-container-block--basic-list-item {
+    padding: 10px;
+    border-top: 1px solid #bad0e6;
+}
+.fourth-screen__layout-container-block--basic-button {
+    border-style: none;
+    border-radius: 2px;
+    color: #fafafa;
+    background: #fa9a00;
+    margin: 0 auto 25px auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 7px 14px;
+    outline: none;
+    cursor: pointer;
+}
+.fourth-screen__layout-container-block--basic-button:hover {
+    background: #ffbb42;
+}
+.fourth-screen__layout-container-block--basic-button:active {
+    transform: scale(0.97, 0.97);
+}
+/*fifth-screen*/
+.fifth-screen__layout {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato";
+    padding-bottom: 80px;
+}
+.fifth-screen__layout-description {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.fifth-screen__layout-description-title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: #394b50;
+}
+.fifth-screen__layout-description-text {
+    color: #394b50;
+}
+.fifth-screen__layout-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 40px;
+    position: relative;
+}
+.fifth-screen__layout-button {
+    border-style: none;
+    border-radius: 2px;
+    color: #fafafa;
+    background: #fa9a00;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 7px 14px;
+    outline: none;
+    cursor: pointer;
+}
+.fifth-screen__layout-button:hover {
+    background: #ffbb42;
+}
+.fifth-screen__layout-button:active {
+    transform: scale(0.97, 0.97);
+}
+.fifth-screen__layout-container-block {
+    text-align: center;
+    padding: 0 45px;
+}
+.fifth-screen__layout-container-block i {
+    font-size: 72px;
+    color: #709dca;
+    padding-bottom: 50px;
+}
+.fifth-screen__layout-container-line {
+    position: absolute;
+    z-index: 200;
+    top: 50px;
+}
+.fifth-screen__layout-container-line hr {
+    border-style: dashed;
+    width: 100px;
+
+}
+.fifth-screen__layout-container-block-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #394b50;
+}
+.fifth-screen__layout-container-text {
+    color: #394b50;
+    font-size: 13px;
+}
+
